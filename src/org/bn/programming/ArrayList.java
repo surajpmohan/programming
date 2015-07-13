@@ -46,9 +46,7 @@ public class ArrayList<E> implements List<E> {
 			}
 		}
 		for(int j=0; j<1000; j++){
-			if(list.get(j)==null){
-				System.out.println(j + " is null");
-			}
+			System.out.println(j+"="+list.get(j));
 		}
 	}
 
